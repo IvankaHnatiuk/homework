@@ -1,0 +1,146 @@
+p {
+    color: blue;
+}
+p.highlight {
+color:rgb(255, 255, 0);
+}
+.container {
+background-color: antiquewhite;
+border: 2px solid black;
+padding: 15px;
+margin: 20px;
+}
+#mailn-title {
+text-align: center;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:visited {
+    color: purple;
+}
+.lista-film li:nth-child(even) {
+    background-color: gray;
+}
+.lista-film{
+    list-style-type: disc;
+    padding: 10px;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+}
+.lista-film li{
+    padding: 8px;
+    border-bottom: 1px solid #53cb3b;
+}
+.contenitore{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.contenuto{
+    width: 300px;
+    height: 200px;
+    background-color: #53cb3b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+.contenitore2{
+    width: 600px;
+    height: 100px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.box{
+width: 200px;
+height:100px;
+border: 2px solid black;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.griglia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: rgb(21, 22, 21);
+    padding: 10px;
+}
+.griglia div{
+    background-color: rgb(242, 9, 242);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.contenitore3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(43, 226, 186);
+}
+.contenitore3 div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(32, 15, 214);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cliccami{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Cliccami:hover{
+    background-color: darkgreen;
+}
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--secondary-color);
+}
+body {
+  background-color: white;
+}
+body {
+  background-color: white;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: #f0f0f0;
+  }
+}
