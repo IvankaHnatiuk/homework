@@ -144,3 +144,14 @@ body {
     background-color: #f0f0f0;
   }
 }
+h2+p{
+    color: red;
+}
+.card {
+  background-color: rgb(215, 192, 213);
+  padding: 20px;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
